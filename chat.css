@@ -1,0 +1,48 @@
+ .u-section-1 {
+  background-image: url("images/default-image.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 40px auto 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 82px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 63px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 47px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 30px;
+  }
+} .u-section-2 {
+  min-height: 959px;
+}
+
+.u-section-2 .u-custom-html-1 {
+  height: auto;
+  min-height: 959px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
